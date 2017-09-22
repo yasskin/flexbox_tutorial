@@ -1,0 +1,29 @@
+.grid {
+  display: flex;
+}
+
+.grid > div > div {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px 0 0 10px;
+  height: 100%;
+}
+
+.gutters {
+  margin: -10px 0 10 -10px;
+}
+
+.gutters > .cell {
+  padding: 10px 0 0 10px;
+}
+
+.half {
+  flex-basis: 50%;
+}
+
+.third {
+  flex-basis: 33.33%;
+}
+
+.fourth {
+  flex-basis: 25%;
+}

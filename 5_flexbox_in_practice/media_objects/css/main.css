@@ -1,0 +1,29 @@
+/* Requirements */
+
+/*
+- variable image size
+- image left or right
+- image vertical align
+- nesting
+- responsive
+- clearfix
+*/
+
+.media {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.figure {
+  flex: 1 1 30%;
+  align-self: flex-start;
+  order: 1;
+}
+
+.media-body {
+  flex: 1 1 60%;
+}
+
+p {
+  margin: 0 10px 20px 10px;
+}
